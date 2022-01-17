@@ -1,18 +1,3 @@
-
-
-Set up a workflow
-From your GitHub repository for workflow_demo, click the Actions menu option at the top:
-
-On the next page, click set up a workflow yourself:
-
-
-If it does not already exist, GitHub will then create your workflows folder, in a folder named .github.
-And it will create a starter workflows YAML file for you and name it main.yml.
-Let's rename it test_hello.yml:
-
-
-GitHub Actions workflow files are always stored in the .github/workflows/ folder.
-Replace all the starter code in this file with the following code:
 name: Hello Test Python Versions
 
 on: push
